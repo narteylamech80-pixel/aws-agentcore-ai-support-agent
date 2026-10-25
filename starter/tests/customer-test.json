@@ -1,0 +1,7 @@
+{
+  "resource": "/customers/{customer_id}",
+  "httpMethod": "GET",
+  "pathParameters": {
+    "customer_id": "CUST-123"
+  }
+}

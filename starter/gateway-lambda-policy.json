@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "lambda:InvokeFunction",
+      "Resource": [
+        "arn:aws:lambda:us-east-1:067105747809:function:refund-processor",
+        "arn:aws:lambda:us-east-1:067105747809:function:order-tracker"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "CustomerSupportOrderAPI",
+    "description" : "Order tracking API for Customer Support Agent",
+    "version" : "2026-10-02T03:08:17Z"
+  },
+  "servers" : [ {
+    "url" : "https://f49n3bhuz0.execute-api.us-east-1.amazonaws.com/{basePath}",
+    "variables" : {
+      "basePath" : {
+        "default" : "prod"
+      }
+    }
+  } ],
+  "paths" : {
+    "/orders/{order_id}" : {
+      "get" : {
+        "operationId" : "get_order",
+        "parameters" : [ {
+          "name" : "order_id",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Empty"
+                }
+              }
+            }
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "uri" : "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:067105747809:function:order-tracker/invocations",
+          "httpMethod" : "POST",
+          "passthroughBehavior" : "when_no_match",
+          "responseTransferMode" : "BUFFERED",
+          "type" : "aws_proxy"
+        }
+      }
+    },
+    "/customers/{customer_id}" : {
+      "get" : {
+        "operationId" : "get_customer",
+        "parameters" : [ {
+          "name" : "customer_id",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Empty"
+                }
+              }
+            }
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "uri" : "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:067105747809:function:order-tracker/invocations",
+          "httpMethod" : "POST",
+          "passthroughBehavior" : "when_no_match",
+          "timeoutInMillis" : 29000,
+          "responseTransferMode" : "BUFFERED",
+          "type" : "aws_proxy"
+        }
+      }
+    },
+    "/customers/{customer_id}/orders" : {
+      "get" : {
+        "operationId" : "get_customer_orders",
+        "parameters" : [ {
+          "name" : "customer_id",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/CustomerOrdersResponse"
+                }
+              }
+            }
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "uri" : "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:067105747809:function:order-tracker/invocations",
+          "httpMethod" : "POST",
+          "passthroughBehavior" : "when_no_match",
+          "timeoutInMillis" : 29000,
+          "responseTransferMode" : "BUFFERED",
+          "type" : "aws_proxy"
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "Empty" : {
+        "title" : "Empty Schema",
+        "type" : "object"
+      },
+      "CustomerOrdersResponse" : {
+        "title" : "CustomerOrdersResponse",
+        "type" : "object",
+        "properties" : {
+          "customer_id" : {
+            "type" : "string"
+          },
+          "orders" : {
+            "type" : "array",
+            "items" : {
+              "type" : "object",
+              "properties" : {
+                "order_id" : {
+                  "type" : "string"
+                },
+                "customer_id" : {
+                  "type" : "string"
+                },
+                "status" : {
+                  "type" : "string"
+                },
+                "items" : {
+                  "type" : "array",
+                  "items" : {
+                    "type" : "object",
+                    "properties" : {
+                      "name" : {
+                        "type" : "string"
+                      },
+                      "qty" : {
+                        "type" : "integer"
+                      },
+                      "price" : {
+                        "type" : "number"
+                      }
+                    }
+                  }
+                },
+                "total" : {
+                  "type" : "number"
+                },
+                "tracking_number" : {
+                  "type" : "string"
+                },
+                "carrier" : {
+                  "type" : "string"
+                },
+                "estimated_delivery" : {
+                  "type" : "string"
+                },
+                "delivered_date" : {
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-amazon-apigateway-security-policy" : "TLS_1_0"
+}

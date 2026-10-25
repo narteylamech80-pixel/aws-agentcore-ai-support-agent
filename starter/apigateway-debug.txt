@@ -1,0 +1,126 @@
+2026-09-26 18:18:36,859 - MainThread - awscli.clidriver - DEBUG - CLI version: aws-cli/2.36.34 Python/3.14.6 Windows/11 exe/AMD64
+2026-09-26 18:18:36,859 - MainThread - awscli.clidriver - DEBUG - Arguments entered to CLI: ['apigateway', 'get-rest-apis', '--region', 'us-east-1', '--debug']
+2026-09-26 18:18:36,884 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.waiters.register_add_waiters for event building-command-table.main
+2026-09-26 18:18:36,885 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.alias.register_alias_commands for event building-command-table.main
+2026-09-26 18:18:36,885 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <function add_waiters at 0x0000018C6CBD73D0>
+2026-09-26 18:18:36,894 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <bound method AliasSubCommandInjector.on_building_command_table of <awscli.alias.AliasSubCommandInjector object at 0x0000018C6CC20980>>
+2026-09-26 18:18:36,894 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\data\cli.json
+2026-09-26 18:18:36,896 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.globalargs.register_parse_global_args for event top-level-args-parsed
+2026-09-26 18:18:36,896 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.cloudfront.register for event top-level-args-parsed
+2026-09-26 18:18:36,897 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function resolve_types at 0x0000018C6D01A2A0>
+2026-09-26 18:18:36,897 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function no_sign_request at 0x0000018C6D01A610>
+2026-09-26 18:18:36,897 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function resolve_verify_ssl at 0x0000018C6D01A560>
+2026-09-26 18:18:36,897 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function resolve_cli_read_timeout at 0x0000018C6D01A770>
+2026-09-26 18:18:36,897 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function resolve_cli_connect_timeout at 0x0000018C6D01A6C0>
+2026-09-26 18:18:36,897 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <built-in method update of dict object at 0x0000018C6D03FD40>
+2026-09-26 18:18:36,897 - MainThread - botocore.session - DEBUG - Setting config variable for region to 'us-east-1'
+2026-09-26 18:18:36,898 - MainThread - awscli.clidriver - DEBUG - CLI version: aws-cli/2.36.34 Python/3.14.6 Windows/11 exe/AMD64
+2026-09-26 18:18:36,898 - MainThread - awscli.clidriver - DEBUG - Arguments entered to CLI: ['apigateway', 'get-rest-apis', '--region', 'us-east-1', '--debug']
+2026-09-26 18:18:36,898 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.paramfile.register_init_uri_param_handler for event session-initialized
+2026-09-26 18:18:36,899 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.binaryformat.register_init_binary_formatter for event session-initialized
+2026-09-26 18:18:36,899 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.clidriver.register_no_pager_handler for event session-initialized
+2026-09-26 18:18:36,899 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.assumerole.register_assume_role_provider for event session-initialized
+2026-09-26 18:18:36,899 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.timestampformat.register_timestamp_format for event session-initialized
+2026-09-26 18:18:36,899 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.history.register_history_mode for event session-initialized
+2026-09-26 18:18:36,905 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.sso.register_sso_commands for event session-initialized
+2026-09-26 18:18:36,911 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function add_timestamp_parser at 0x0000018C6D041590>
+2026-09-26 18:18:36,911 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function register_uri_param_handler at 0x0000018C6C81F110>
+2026-09-26 18:18:36,911 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function add_binary_formatter at 0x0000018C6D040930>
+2026-09-26 18:18:36,912 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function no_pager_handler at 0x0000018C6CBBB320>
+2026-09-26 18:18:36,912 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function inject_assume_role_provider_cache at 0x0000018C6D0412D0>
+2026-09-26 18:18:36,914 - MainThread - botocore.utils - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2026-09-26 18:18:36,915 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function attach_history_handler at 0x0000018C6D041850>
+2026-09-26 18:18:36,915 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function inject_json_file_cache at 0x0000018C6D304EB0>
+2026-09-26 18:18:36,940 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\apigateway\2015-07-09\service-2.json
+2026-09-26 18:18:36,950 - MainThread - botocore.hooks - DEBUG - Event building-command-table.apigateway: calling handler <function add_waiters at 0x0000018C6CBD73D0>
+2026-09-26 18:18:36,973 - MainThread - botocore.hooks - DEBUG - Event building-command-table.apigateway: calling handler <bound method AliasSubCommandInjector.on_building_command_table of <awscli.alias.AliasSubCommandInjector object at 0x0000018C6CC20980>>
+2026-09-26 18:18:36,974 - MainThread - awscli.clidriver - DEBUG - OrderedDict({'position': <awscli.arguments.CLIArgument object at 0x0000018C6D48C440>, 'limit': <awscli.arguments.CLIArgument object at 0x0000018C6D3D5D10>})
+2026-09-26 18:18:36,974 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.streamingoutputarg.register_streaming_output_arg for event building-argument-table.apigateway.get-rest-apis
+2026-09-26 18:18:36,974 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.cliinput.register_cli_input_args for event building-argument-table.apigateway.get-rest-apis
+2026-09-26 18:18:36,976 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.paginate.register_pagination for event building-argument-table.apigateway.get-rest-apis
+2026-09-26 18:18:36,977 - MainThread - awscli.lazy_emitter - DEBUG - Lazy-initializing plugin awscli.customizations.generatecliskeleton.register_generate_cli_skeleton for event building-argument-table.apigateway.get-rest-apis
+2026-09-26 18:18:36,978 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.apigateway.get-rest-apis: calling handler <function add_streaming_output_arg at 0x0000018C6D307950>
+2026-09-26 18:18:36,978 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.apigateway.get-rest-apis: calling handler <function add_cli_input_json at 0x0000018C6D490300>
+2026-09-26 18:18:36,978 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.apigateway.get-rest-apis: calling handler <function add_cli_input_yaml at 0x0000018C6D491220>
+2026-09-26 18:18:36,978 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.apigateway.get-rest-apis: calling handler <function unify_paging_params at 0x0000018C6D491A60>
+2026-09-26 18:18:37,002 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\apigateway\2015-07-09\paginators-1.json
+2026-09-26 18:18:37,002 - MainThread - awscli.customizations.paginate - DEBUG - Modifying paging parameters for operation: GetRestApis
+2026-09-26 18:18:37,002 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.apigateway.get-rest-apis: calling handler <function add_generate_skeleton at 0x0000018C6D492820>
+2026-09-26 18:18:37,002 - MainThread - botocore.hooks - DEBUG - Event before-building-argument-table-parser.apigateway.get-rest-apis: calling handler <bound method OverrideRequiredArgsArgument.override_required_args of <awscli.customizations.cliinput.CliInputJSONArgument object at 0x0000018C6D48CD70>>
+2026-09-26 18:18:37,002 - MainThread - botocore.hooks - DEBUG - Event before-building-argument-table-parser.apigateway.get-rest-apis: calling handler <bound method OverrideRequiredArgsArgument.override_required_args of <awscli.customizations.cliinput.CliInputYAMLArgument object at 0x0000018C6D48D010>>
+2026-09-26 18:18:37,002 - MainThread - botocore.hooks - DEBUG - Event before-building-argument-table-parser.apigateway.get-rest-apis: calling handler <bound method GenerateCliSkeletonArgument.override_required_args of <awscli.customizations.generatecliskeleton.GenerateCliSkeletonArgument object at 0x0000018C6D48D400>>
+2026-09-26 18:18:37,002 - MainThread - botocore.hooks - DEBUG - Event building-command-table.apigateway_get-rest-apis: calling handler <function add_waiters at 0x0000018C6CBD73D0>
+2026-09-26 18:18:37,002 - MainThread - botocore.hooks - DEBUG - Event building-command-table.apigateway_get-rest-apis: calling handler <bound method AliasSubCommandInjector.on_building_command_table of <awscli.alias.AliasSubCommandInjector object at 0x0000018C6CC20980>>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event operation-args-parsed.apigateway.get-rest-apis: calling handler functools.partial(<function check_should_enable_pagination at 0x0000018C6D491BC0>, ['position', 'limit'], {}, OrderedDict({'position': <awscli.arguments.CLIArgument object at 0x0000018C6D48C440>, 'limit': <awscli.arguments.CLIArgument object at 0x0000018C6D3D5D10>, 'cli-input-json': <awscli.customizations.cliinput.CliInputJSONArgument object at 0x0000018C6D48CD70>, 'cli-input-yaml': <awscli.customizations.cliinput.CliInputYAMLArgument object at 0x0000018C6D48D010>, 'starting-token': <awscli.customizations.paginate.PageArgument object at 0x0000018C6D48D160>, 'page-size': <awscli.customizations.paginate.PageArgument object at 0x0000018C6D3D6710>, 'max-items': <awscli.customizations.paginate.PageArgument object at 0x0000018C6D3D6C10>, 'generate-cli-skeleton': <awscli.customizations.generatecliskeleton.GenerateCliSkeletonArgument object at 0x0000018C6D48D400>}))
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.apigateway.get-rest-apis.position: calling handler <awscli.paramfile.URIArgumentHandler object at 0x0000018C6D08D400>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.apigateway.get-rest-apis.limit: calling handler <awscli.paramfile.URIArgumentHandler object at 0x0000018C6D08D400>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.apigateway.get-rest-apis.cli-input-json: calling handler <awscli.paramfile.URIArgumentHandler object at 0x0000018C6D08D400>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.apigateway.get-rest-apis.cli-input-yaml: calling handler <awscli.paramfile.URIArgumentHandler object at 0x0000018C6D08D400>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.apigateway.get-rest-apis.starting-token: calling handler <awscli.paramfile.URIArgumentHandler object at 0x0000018C6D08D400>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.apigateway.get-rest-apis.page-size: calling handler <awscli.paramfile.URIArgumentHandler object at 0x0000018C6D08D400>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.apigateway.get-rest-apis.max-items: calling handler <awscli.paramfile.URIArgumentHandler object at 0x0000018C6D08D400>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.apigateway.get-rest-apis.generate-cli-skeleton: calling handler <awscli.paramfile.URIArgumentHandler object at 0x0000018C6D08D400>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event calling-command.apigateway.get-rest-apis: calling handler <bound method CliInputArgument.add_to_call_parameters of <awscli.customizations.cliinput.CliInputJSONArgument object at 0x0000018C6D48CD70>>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event calling-command.apigateway.get-rest-apis: calling handler <bound method CliInputArgument.add_to_call_parameters of <awscli.customizations.cliinput.CliInputYAMLArgument object at 0x0000018C6D48D010>>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event calling-command.apigateway.get-rest-apis: calling handler <bound method GenerateCliSkeletonArgument.generate_skeleton of <awscli.customizations.generatecliskeleton.GenerateCliSkeletonArgument object at 0x0000018C6D48D400>>
+2026-09-26 18:18:37,003 - MainThread - botocore.hooks - DEBUG - Event calling-command.apigateway.get-rest-apis: calling handler functools.partial(<function check_should_enable_pagination_call_parameters at 0x0000018C6D492090>, ['position', 'limit'])
+2026-09-26 18:18:37,004 - MainThread - botocore.hooks - DEBUG - Event before-create-client: calling handler <function register_session_id_event.<locals>._inject_session_id at 0x0000018C6CBD6E50>
+2026-09-26 18:18:37,015 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: env
+2026-09-26 18:18:37,015 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: assume-role
+2026-09-26 18:18:37,015 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2026-09-26 18:18:37,015 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: sso
+2026-09-26 18:18:37,015 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: shared-credentials-file
+2026-09-26 18:18:37,015 - MainThread - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-09-26 18:18:37,016 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\endpoints.json
+2026-09-26 18:18:37,033 - MainThread - botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000018C6BEEF8A0>
+2026-09-26 18:18:37,061 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\apigateway\2015-07-09\endpoint-rule-set-1.json
+2026-09-26 18:18:37,062 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\partitions.json
+2026-09-26 18:18:37,063 - MainThread - botocore.hooks - DEBUG - Event creating-client-class.api-gateway: calling handler <function add_generate_presigned_url at 0x0000018C6C493CC0>
+2026-09-26 18:18:37,063 - MainThread - botocore.configprovider - DEBUG - Looking for endpoint for apigateway via: environment_service
+2026-09-26 18:18:37,063 - MainThread - botocore.configprovider - DEBUG - Looking for endpoint for apigateway via: environment_global
+2026-09-26 18:18:37,063 - MainThread - botocore.configprovider - DEBUG - Looking for endpoint for apigateway via: config_service
+2026-09-26 18:18:37,063 - MainThread - botocore.configprovider - DEBUG - Looking for endpoint for apigateway via: config_global
+2026-09-26 18:18:37,063 - MainThread - botocore.configprovider - DEBUG - No configured endpoint found.
+2026-09-26 18:18:37,070 - MainThread - botocore.endpoint - DEBUG - Setting apigateway timeout as (60, 60)
+2026-09-26 18:18:37,071 - MainThread - botocore.hooks - DEBUG - Event provide-client-params.api-gateway.GetRestApis: calling handler <function base64_decode_input_blobs at 0x0000018C6D0409E0>
+2026-09-26 18:18:37,071 - MainThread - botocore.hooks - DEBUG - Event before-parameter-build.api-gateway.GetRestApis: calling handler <function generate_idempotent_uuid at 0x0000018C6C564040>
+2026-09-26 18:18:37,071 - MainThread - botocore.hooks - DEBUG - Event before-parameter-build.api-gateway.GetRestApis: calling handler <function _handle_request_validation_mode_member at 0x0000018C6C567060>
+2026-09-26 18:18:37,071 - MainThread - botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-east-1', 'UseDualStack': False, 'UseFIPS': False}
+2026-09-26 18:18:37,072 - MainThread - botocore.regions - DEBUG - Endpoint provider result: https://apigateway.us-east-1.amazonaws.com
+2026-09-26 18:18:37,072 - MainThread - botocore.hooks - DEBUG - Event before-call.api-gateway.GetRestApis: calling handler <function add_accept_header at 0x0000018C6C565430>
+2026-09-26 18:18:37,072 - MainThread - botocore.hooks - DEBUG - Event before-call.api-gateway.GetRestApis: calling handler <function inject_api_version_header_if_needed at 0x0000018C6C565DD0>
+2026-09-26 18:18:37,072 - MainThread - botocore.endpoint - DEBUG - Making request for OperationModel(name=GetRestApis) with params: {'url_path': '/restapis', 'query_string': {}, 'method': 'GET', 'headers': {'User-Agent': 'aws-cli/2.36.34 md/awscrt#0.36.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.6 md/pyimpl#CPython m/n,Z,E,C,b cfg/retry-mode#standard md/installer#exe sid/875e18c67642 md/prompt#off md/command#apigateway.get-rest-apis', 'Accept': 'application/json'}, 'body': b'', 'url': 'https://apigateway.us-east-1.amazonaws.com/restapis', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000018C6BDDE710>, 'has_streaming_input': False, 'auth_type': None, 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4']}}
+2026-09-26 18:18:37,072 - MainThread - botocore.hooks - DEBUG - Event request-created.api-gateway.GetRestApis: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000018C6CB71E80>>
+2026-09-26 18:18:37,072 - MainThread - botocore.hooks - DEBUG - Event choose-signer.api-gateway.GetRestApis: calling handler <function set_operation_specific_signer at 0x0000018C6C53BCC0>
+2026-09-26 18:18:37,072 - MainThread - botocore.hooks - DEBUG - Event choose-signer.api-gateway.GetRestApis: calling handler <function _set_auth_scheme_preference_signer at 0x0000018C6C567110>
+2026-09-26 18:18:37,072 - MainThread - botocore.auth - DEBUG - Calculating signature using v4 auth.
+2026-09-26 18:18:37,072 - MainThread - botocore.auth - DEBUG - CanonicalRequest:
+GET
+/restapis
+
+accept:application/json
+host:apigateway.us-east-1.amazonaws.com
+x-amz-date:20260926T181837Z
+x-amz-security-token:IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJGMEQCIBwZEU/MCUyA8Ik1ECQFbfbMVIjtNAsgEpUNfK+Il75xAiBU0IR7cPVAfrma/8kWhQkH93eOpGKuh/kKWbWwtFQj4Cq+AggKEAIaDDA2NzEwNTc0NzgwOSIMLW+ge4Q8JjybhCehKpsCdfwizaRSS285Wq21t5VSqPMdRJqTluOmDlZkInNujIJPRH7WUxNjPDLoEj82GfEnQLuHXXJgyBVn6rG/ZxC9KfntZPqeVVSOj3Ea0DEELMEvELik3PZFs2S0aTt9BKsfe2aO/1ZZ3SzZICk5T99uh29SKbwlb+c4tj5TfP+FmKr8hpdgCoWvZ5IiUeYFeryuOZN3Nb+Maqfbm4AIb1tpCsCvO+plEkKWPOeA4Kyi4VvMIAdahjzPI28ummNeO/ECXlPrk8XyCWRWP0NN3GIjsPiQxxBIgh3tv2GoqLv8shm3QE625xl490QrInX6A/1D1XoWACxrwOMCxGN3rlKwmOaCUbpsscwamdHNMkvMpUyu1xRgtz65uBfokDDi5t/VBjqeAeKtm9yo1C3x7THgYOx5i343M1AzMvqqAqO4stx4eu7Hgzg1h3/XFbw8QYgtHPekn7XFZFCcnWF62wroR01xmionIEEFj+k6yU5ig8XyIy7DHzKMJoNHUGO4kdfkeqV2qOK2xpmq/K+RwPbqwT1rkHja3xB1Vm3ADnNcV4uHqhUzW2zFwfESlJIDfQO0aKPBU2/JPMktq0cuNt4qlcW2
+
+accept;host;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-09-26 18:18:37,073 - MainThread - botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260926T181837Z
+20260926/us-east-1/apigateway/aws4_request
+60884bbe0b6bb247f95269025153f8957161257bf08fb398963852ca208b5e6c
+2026-09-26 18:18:37,073 - MainThread - botocore.auth - DEBUG - Signature:
+d291f5c12d0e7c7b754da7fc60e832d5d9ce246ab22fae5223d87323d0de7a0d
+2026-09-26 18:18:37,073 - MainThread - botocore.hooks - DEBUG - Event request-created.api-gateway.GetRestApis: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x0000018C6DD84690>>
+2026-09-26 18:18:37,073 - MainThread - botocore.hooks - DEBUG - Event request-created.api-gateway.GetRestApis: calling handler <function add_retry_headers at 0x0000018C6C5668D0>
+2026-09-26 18:18:37,073 - MainThread - botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=https://apigateway.us-east-1.amazonaws.com/restapis, headers={'User-Agent': b'aws-cli/2.36.34 md/awscrt#0.36.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.6 md/pyimpl#CPython m/n,Z,E,C,b cfg/retry-mode#standard md/installer#exe sid/875e18c67642 md/prompt#off md/command#apigateway.get-rest-apis', 'Accept': b'application/json', 'X-Amz-Date': b'20260926T181837Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJGMEQCIBwZEU/MCUyA8Ik1ECQFbfbMVIjtNAsgEpUNfK+Il75xAiBU0IR7cPVAfrma/8kWhQkH93eOpGKuh/kKWbWwtFQj4Cq+AggKEAIaDDA2NzEwNTc0NzgwOSIMLW+ge4Q8JjybhCehKpsCdfwizaRSS285Wq21t5VSqPMdRJqTluOmDlZkInNujIJPRH7WUxNjPDLoEj82GfEnQLuHXXJgyBVn6rG/ZxC9KfntZPqeVVSOj3Ea0DEELMEvELik3PZFs2S0aTt9BKsfe2aO/1ZZ3SzZICk5T99uh29SKbwlb+c4tj5TfP+FmKr8hpdgCoWvZ5IiUeYFeryuOZN3Nb+Maqfbm4AIb1tpCsCvO+plEkKWPOeA4Kyi4VvMIAdahjzPI28ummNeO/ECXlPrk8XyCWRWP0NN3GIjsPiQxxBIgh3tv2GoqLv8shm3QE625xl490QrInX6A/1D1XoWACxrwOMCxGN3rlKwmOaCUbpsscwamdHNMkvMpUyu1xRgtz65uBfokDDi5t/VBjqeAeKtm9yo1C3x7THgYOx5i343M1AzMvqqAqO4stx4eu7Hgzg1h3/XFbw8QYgtHPekn7XFZFCcnWF62wroR01xmionIEEFj+k6yU5ig8XyIy7DHzKMJoNHUGO4kdfkeqV2qOK2xpmq/K+RwPbqwT1rkHja3xB1Vm3ADnNcV4uHqhUzW2zFwfESlJIDfQO0aKPBU2/JPMktq0cuNt4qlcW2', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIAQ7H6QONQ62KW7D4L/20260926/us-east-1/apigateway/aws4_request, SignedHeaders=accept;host;x-amz-date;x-amz-security-token, Signature=d291f5c12d0e7c7b754da7fc60e832d5d9ce246ab22fae5223d87323d0de7a0d', 'amz-sdk-invocation-id': b'dc232c8f-29c0-448b-bdf1-bd64651ac5e8', 'amz-sdk-request': b'attempt=1'}>
+2026-09-26 18:18:37,073 - MainThread - botocore.httpsession - DEBUG - Certificate path: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\cacert.pem
+2026-09-26 18:18:37,073 - MainThread - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): apigateway.us-east-1.amazonaws.com:443
+2026-09-26 18:18:38,018 - MainThread - urllib3.connectionpool - DEBUG - https://apigateway.us-east-1.amazonaws.com:443 "GET /restapis HTTP/1.1" 200 12
+2026-09-26 18:18:38,019 - MainThread - botocore.parsers - DEBUG - Response headers: {'Date': 'Sat, 26 Sep 2026 18:18:37 GMT', 'Content-Type': 'application/json', 'Content-Length': '12', 'Connection': 'keep-alive', 'x-amzn-RequestId': '45afb81f-cb26-41a5-ad35-318f152a4d1f', 'x-amz-apigw-id': 'EUbjvLAroAMEbIA='}
+2026-09-26 18:18:38,019 - MainThread - botocore.parsers - DEBUG - Response body:
+b'{"item":[]}\n'
+2026-09-26 18:18:38,020 - MainThread - botocore.hooks - DEBUG - Event needs-retry.api-gateway.GetRestApis: calling handler <bound method RetryHandler.needs_retry of <botocore.retries.standard.RetryHandler object at 0x0000018C6DD88830>>
+2026-09-26 18:18:38,020 - MainThread - botocore.retries.standard - DEBUG - Not retrying request.
+2026-09-26 18:18:38,020 - MainThread - botocore.hooks - DEBUG - Event after-call.api-gateway.GetRestApis: calling handler <bound method RetryQuotaChecker.release_retry_quota of <botocore.retries.standard.RetryQuotaChecker object at 0x0000018C6D48F770>>
